@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76488AA51CC5BA1800B815DD /* ADPresident.m in Sources */ = {isa = PBXBuildFile; fileRef = 76488AA41CC5BA1800B815DD /* ADPresident.m */; };
+		76488AA81CC5BF5700B815DD /* ADPresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76488AA71CC5BF5700B815DD /* ADPresidentsViewController.m */; };
+		76488AAA1CC5C40400B815DD /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76488AA91CC5C40400B815DD /* Presidents.plist */; };
+		76488AAD1CC5C96700B815DD /* ADPresidentDetailTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76488AAC1CC5C96700B815DD /* ADPresidentDetailTableVC.m */; };
+		76488AB11CC5CDC200B815DD /* ADPresidentDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76488AAF1CC5CDC200B815DD /* ADPresidentDetailCell.m */; };
+		76488AB21CC5CDC200B815DD /* ADPresidentDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76488AB01CC5CDC200B815DD /* ADPresidentDetailCell.xib */; };
+		7697886F1CC4BA7B00AA922C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697886E1CC4BA7B00AA922C /* main.m */; };
+		769788721CC4BA7B00AA922C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 769788711CC4BA7B00AA922C /* AppDelegate.m */; };
+		769788781CC4BA7B00AA922C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769788761CC4BA7B00AA922C /* Main.storyboard */; };
+		7697887A1CC4BA7B00AA922C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769788791CC4BA7B00AA922C /* Assets.xcassets */; };
+		7697887D1CC4BA7B00AA922C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7697887B1CC4BA7B00AA922C /* LaunchScreen.storyboard */; };
+		769788891CC4BC4B00AA922C /* ADFirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769788881CC4BC4B00AA922C /* ADFirstLevelViewController.m */; };
+		7697888C1CC4BE6B00AA922C /* ADSecondLevelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697888B1CC4BE6B00AA922C /* ADSecondLevelTableViewController.m */; };
+		7697888F1CC4C16500AA922C /* ADDisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697888E1CC4C16500AA922C /* ADDisclosureButtonController.m */; };
+		769788921CC4C96900AA922C /* ADDisclosureButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769788911CC4C96900AA922C /* ADDisclosureButtonViewController.m */; };
+		769788971CC4CB2A00AA922C /* ADCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769788961CC4CB2A00AA922C /* ADCheckListViewController.m */; };
+		7697889B1CC4D0AD00AA922C /* ADRowControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697889A1CC4D0AD00AA922C /* ADRowControllerViewController.m */; };
+		7697889F1CC4D86900AA922C /* ADMoveMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7697889E1CC4D86900AA922C /* ADMoveMeViewController.m */; };
+		769788A31CC4DE8600AA922C /* ADDeleteMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769788A21CC4DE8600AA922C /* ADDeleteMeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76488AA31CC5BA1800B815DD /* ADPresident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPresident.h; sourceTree = "<group>"; };
+		76488AA41CC5BA1800B815DD /* ADPresident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPresident.m; sourceTree = "<group>"; };
+		76488AA61CC5BF5700B815DD /* ADPresidentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPresidentsViewController.h; sourceTree = "<group>"; };
+		76488AA71CC5BF5700B815DD /* ADPresidentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPresidentsViewController.m; sourceTree = "<group>"; };
+		76488AA91CC5C40400B815DD /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
+		76488AAB1CC5C96700B815DD /* ADPresidentDetailTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPresidentDetailTableVC.h; sourceTree = "<group>"; };
+		76488AAC1CC5C96700B815DD /* ADPresidentDetailTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPresidentDetailTableVC.m; sourceTree = "<group>"; };
+		76488AAE1CC5CDC200B815DD /* ADPresidentDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPresidentDetailCell.h; sourceTree = "<group>"; };
+		76488AAF1CC5CDC200B815DD /* ADPresidentDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPresidentDetailCell.m; sourceTree = "<group>"; };
+		76488AB01CC5CDC200B815DD /* ADPresidentDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADPresidentDetailCell.xib; sourceTree = "<group>"; };
+		7697886A1CC4BA7B00AA922C /* NAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7697886E1CC4BA7B00AA922C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		769788701CC4BA7B00AA922C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		769788711CC4BA7B00AA922C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		769788771CC4BA7B00AA922C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		769788791CC4BA7B00AA922C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7697887C1CC4BA7B00AA922C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7697887E1CC4BA7B00AA922C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769788871CC4BC4B00AA922C /* ADFirstLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFirstLevelViewController.h; sourceTree = "<group>"; };
+		769788881CC4BC4B00AA922C /* ADFirstLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFirstLevelViewController.m; sourceTree = "<group>"; };
+		7697888A1CC4BE6B00AA922C /* ADSecondLevelTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSecondLevelTableViewController.h; sourceTree = "<group>"; };
+		7697888B1CC4BE6B00AA922C /* ADSecondLevelTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSecondLevelTableViewController.m; sourceTree = "<group>"; };
+		7697888D1CC4C16500AA922C /* ADDisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDisclosureButtonController.h; sourceTree = "<group>"; };
+		7697888E1CC4C16500AA922C /* ADDisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDisclosureButtonController.m; sourceTree = "<group>"; };
+		769788901CC4C96900AA922C /* ADDisclosureButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDisclosureButtonViewController.h; sourceTree = "<group>"; };
+		769788911CC4C96900AA922C /* ADDisclosureButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDisclosureButtonViewController.m; sourceTree = "<group>"; };
+		769788951CC4CB2A00AA922C /* ADCheckListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCheckListViewController.h; sourceTree = "<group>"; };
+		769788961CC4CB2A00AA922C /* ADCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCheckListViewController.m; sourceTree = "<group>"; };
+		769788991CC4D0AD00AA922C /* ADRowControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADRowControllerViewController.h; sourceTree = "<group>"; };
+		7697889A1CC4D0AD00AA922C /* ADRowControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADRowControllerViewController.m; sourceTree = "<group>"; };
+		7697889D1CC4D86900AA922C /* ADMoveMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMoveMeViewController.h; sourceTree = "<group>"; };
+		7697889E1CC4D86900AA922C /* ADMoveMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMoveMeViewController.m; sourceTree = "<group>"; };
+		769788A11CC4DE8600AA922C /* ADDeleteMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDeleteMeViewController.h; sourceTree = "<group>"; };
+		769788A21CC4DE8600AA922C /* ADDeleteMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDeleteMeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769788671CC4BA7B00AA922C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76488AA21CC5B9A300B815DD /* President Detail */ = {
+			isa = PBXGroup;
+			children = (
+				76488AA31CC5BA1800B815DD /* ADPresident.h */,
+				76488AA41CC5BA1800B815DD /* ADPresident.m */,
+				76488AA61CC5BF5700B815DD /* ADPresidentsViewController.h */,
+				76488AA71CC5BF5700B815DD /* ADPresidentsViewController.m */,
+				76488AAB1CC5C96700B815DD /* ADPresidentDetailTableVC.h */,
+				76488AAC1CC5C96700B815DD /* ADPresidentDetailTableVC.m */,
+				76488AAE1CC5CDC200B815DD /* ADPresidentDetailCell.h */,
+				76488AAF1CC5CDC200B815DD /* ADPresidentDetailCell.m */,
+				76488AB01CC5CDC200B815DD /* ADPresidentDetailCell.xib */,
+			);
+			name = "President Detail";
+			sourceTree = "<group>";
+		};
+		769788611CC4BA7B00AA922C = {
+			isa = PBXGroup;
+			children = (
+				7697886C1CC4BA7B00AA922C /* NAV */,
+				7697886B1CC4BA7B00AA922C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7697886B1CC4BA7B00AA922C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7697886A1CC4BA7B00AA922C /* NAV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7697886C1CC4BA7B00AA922C /* NAV */ = {
+			isa = PBXGroup;
+			children = (
+				769788871CC4BC4B00AA922C /* ADFirstLevelViewController.h */,
+				769788881CC4BC4B00AA922C /* ADFirstLevelViewController.m */,
+				7697888A1CC4BE6B00AA922C /* ADSecondLevelTableViewController.h */,
+				7697888B1CC4BE6B00AA922C /* ADSecondLevelTableViewController.m */,
+				769788931CC4C97400AA922C /* DisclosureButton */,
+				769788941CC4CAC600AA922C /* Check List */,
+				769788981CC4D08E00AA922C /* Row Controller */,
+				7697889C1CC4D7A900AA922C /* Move Me  */,
+				769788A01CC4DE6100AA922C /* Delete Me */,
+				76488AA21CC5B9A300B815DD /* President Detail */,
+				769788701CC4BA7B00AA922C /* AppDelegate.h */,
+				769788711CC4BA7B00AA922C /* AppDelegate.m */,
+				769788761CC4BA7B00AA922C /* Main.storyboard */,
+				76488AA91CC5C40400B815DD /* Presidents.plist */,
+				769788791CC4BA7B00AA922C /* Assets.xcassets */,
+				7697887B1CC4BA7B00AA922C /* LaunchScreen.storyboard */,
+				7697887E1CC4BA7B00AA922C /* Info.plist */,
+				7697886D1CC4BA7B00AA922C /* Supporting Files */,
+			);
+			path = NAV;
+			sourceTree = "<group>";
+		};
+		7697886D1CC4BA7B00AA922C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7697886E1CC4BA7B00AA922C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		769788931CC4C97400AA922C /* DisclosureButton */ = {
+			isa = PBXGroup;
+			children = (
+				7697888D1CC4C16500AA922C /* ADDisclosureButtonController.h */,
+				7697888E1CC4C16500AA922C /* ADDisclosureButtonController.m */,
+				769788901CC4C96900AA922C /* ADDisclosureButtonViewController.h */,
+				769788911CC4C96900AA922C /* ADDisclosureButtonViewController.m */,
+			);
+			name = DisclosureButton;
+			sourceTree = "<group>";
+		};
+		769788941CC4CAC600AA922C /* Check List */ = {
+			isa = PBXGroup;
+			children = (
+				769788951CC4CB2A00AA922C /* ADCheckListViewController.h */,
+				769788961CC4CB2A00AA922C /* ADCheckListViewController.m */,
+			);
+			name = "Check List";
+			sourceTree = "<group>";
+		};
+		769788981CC4D08E00AA922C /* Row Controller */ = {
+			isa = PBXGroup;
+			children = (
+				769788991CC4D0AD00AA922C /* ADRowControllerViewController.h */,
+				7697889A1CC4D0AD00AA922C /* ADRowControllerViewController.m */,
+			);
+			name = "Row Controller";
+			sourceTree = "<group>";
+		};
+		7697889C1CC4D7A900AA922C /* Move Me  */ = {
+			isa = PBXGroup;
+			children = (
+				7697889D1CC4D86900AA922C /* ADMoveMeViewController.h */,
+				7697889E1CC4D86900AA922C /* ADMoveMeViewController.m */,
+			);
+			name = "Move Me ";
+			sourceTree = "<group>";
+		};
+		769788A01CC4DE6100AA922C /* Delete Me */ = {
+			isa = PBXGroup;
+			children = (
+				769788A11CC4DE8600AA922C /* ADDeleteMeViewController.h */,
+				769788A21CC4DE8600AA922C /* ADDeleteMeViewController.m */,
+			);
+			name = "Delete Me";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		769788691CC4BA7B00AA922C /* NAV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769788811CC4BA7B00AA922C /* Build configuration list for PBXNativeTarget "NAV" */;
+			buildPhases = (
+				769788661CC4BA7B00AA922C /* Sources */,
+				769788671CC4BA7B00AA922C /* Frameworks */,
+				769788681CC4BA7B00AA922C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAV;
+			productName = NAV;
+			productReference = 7697886A1CC4BA7B00AA922C /* NAV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		769788621CC4BA7B00AA922C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AD;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.AnDong;
+				TargetAttributes = {
+					769788691CC4BA7B00AA922C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = FKR9K2YRF8;
+					};
+				};
+			};
+			buildConfigurationList = 769788651CC4BA7B00AA922C /* Build configuration list for PBXProject "NAV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 769788611CC4BA7B00AA922C;
+			productRefGroup = 7697886B1CC4BA7B00AA922C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				769788691CC4BA7B00AA922C /* NAV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		769788681CC4BA7B00AA922C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7697887D1CC4BA7B00AA922C /* LaunchScreen.storyboard in Resources */,
+				7697887A1CC4BA7B00AA922C /* Assets.xcassets in Resources */,
+				769788781CC4BA7B00AA922C /* Main.storyboard in Resources */,
+				76488AB21CC5CDC200B815DD /* ADPresidentDetailCell.xib in Resources */,
+				76488AAA1CC5C40400B815DD /* Presidents.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769788661CC4BA7B00AA922C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76488AA81CC5BF5700B815DD /* ADPresidentsViewController.m in Sources */,
+				76488AAD1CC5C96700B815DD /* ADPresidentDetailTableVC.m in Sources */,
+				7697888C1CC4BE6B00AA922C /* ADSecondLevelTableViewController.m in Sources */,
+				7697889F1CC4D86900AA922C /* ADMoveMeViewController.m in Sources */,
+				769788721CC4BA7B00AA922C /* AppDelegate.m in Sources */,
+				76488AA51CC5BA1800B815DD /* ADPresident.m in Sources */,
+				7697889B1CC4D0AD00AA922C /* ADRowControllerViewController.m in Sources */,
+				769788971CC4CB2A00AA922C /* ADCheckListViewController.m in Sources */,
+				769788921CC4C96900AA922C /* ADDisclosureButtonViewController.m in Sources */,
+				769788A31CC4DE8600AA922C /* ADDeleteMeViewController.m in Sources */,
+				76488AB11CC5CDC200B815DD /* ADPresidentDetailCell.m in Sources */,
+				7697886F1CC4BA7B00AA922C /* main.m in Sources */,
+				769788891CC4BC4B00AA922C /* ADFirstLevelViewController.m in Sources */,
+				7697888F1CC4C16500AA922C /* ADDisclosureButtonController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		769788761CC4BA7B00AA922C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				769788771CC4BA7B00AA922C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7697887B1CC4BA7B00AA922C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7697887C1CC4BA7B00AA922C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7697887F1CC4BA7B00AA922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		769788801CC4BA7B00AA922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		769788821CC4BA7B00AA922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NAV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnDong.NAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		769788831CC4BA7B00AA922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NAV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnDong.NAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		769788651CC4BA7B00AA922C /* Build configuration list for PBXProject "NAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7697887F1CC4BA7B00AA922C /* Debug */,
+				769788801CC4BA7B00AA922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769788811CC4BA7B00AA922C /* Build configuration list for PBXNativeTarget "NAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769788821CC4BA7B00AA922C /* Debug */,
+				769788831CC4BA7B00AA922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 769788621CC4BA7B00AA922C /* Project object */;
+}
